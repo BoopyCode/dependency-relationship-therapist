@@ -1,0 +1,18 @@
+{
+  "name": "dep-therapist",
+  "version": "1.0.0",
+  "description": "Dependency Relationship Therapist - helps debug package conflicts",
+  "main": "dep-therapist.js",
+  "bin": {
+    "dep-therapist": "./dep-therapist.js"
+  },
+  "scripts": {
+    "start": "node dep-therapist.js"
+  },
+  "keywords": ["dependencies", "debug", "therapist", "conflict"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
